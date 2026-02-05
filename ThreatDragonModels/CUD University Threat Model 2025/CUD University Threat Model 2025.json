@@ -558,12 +558,6 @@
               "cell": "1b6fd75b-52d2-4a53-88b3-5d19174b8e7a",
               "port": "ccd4c1b7-22ae-4e99-8bfa-78ac6b89bbf6"
             },
-            "vertices": [
-              {
-                "x": -970,
-                "y": -980
-              }
-            ],
             "tools": {
               "items": [
                 "boundary",
@@ -668,7 +662,13 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": [
+              {
+                "x": -970,
+                "y": -980
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1561,6 +1561,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -1644,7 +1645,6 @@
               ]
             },
             "id": "0130ced8-eabe-4b45-a5cb-17c48cac89b1",
-            "zIndex": 15,
             "data": {
               "type": "tm.Process",
               "name": "API Gateway",
@@ -1703,6 +1703,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -1786,7 +1787,6 @@
               ]
             },
             "id": "79f5bb92-cbf9-4f11-865e-e691574a8138",
-            "zIndex": 16,
             "data": {
               "type": "tm.Process",
               "name": "Auth Service",
@@ -1845,6 +1845,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -1928,7 +1929,6 @@
               ]
             },
             "id": "f2d962b6-351d-4728-810b-58e15480bc49",
-            "zIndex": 17,
             "data": {
               "type": "tm.Actor",
               "name": "Admin",
@@ -1962,6 +1962,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 18,
             "ports": {
               "groups": {
                 "top": {
@@ -2045,7 +2046,6 @@
               ]
             },
             "id": "5e2354c1-ceb9-4804-893d-fe22b29ef4d0",
-            "zIndex": 18,
             "data": {
               "type": "tm.Process",
               "name": "Admin Panel",
@@ -2104,6 +2104,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 19,
             "ports": {
               "groups": {
                 "top": {
@@ -2187,7 +2188,6 @@
               ]
             },
             "id": "95d30b30-1855-40ef-8b95-da3658145a60",
-            "zIndex": 19,
             "data": {
               "type": "tm.Process",
               "name": "Cloud Infra",
@@ -2251,6 +2251,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 20,
             "ports": {
               "groups": {
                 "top": {
@@ -2334,7 +2335,6 @@
               ]
             },
             "id": "e914d80f-8ed8-4f19-9e3c-f6af1b35c63a",
-            "zIndex": 20,
             "data": {
               "type": "tm.Store",
               "name": "Finance DB",
